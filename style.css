@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.game-level{
+  font-size: 20px !important;
+}
+
+.btn-1{
+  background-color: green;
+  height: 120px;
+  width: 120px;
+  border-radius:10%;
+  
+}
+.btn-2{
+  background-color: red;
+  height: 120px;
+  width: 120px;
+  border-radius:10%;
+  
+}
+.btn-3{
+  background-color: blue;
+  height: 120px;
+  width: 120px;
+  border-radius:10%;
+  
+}
+.btn-4{
+  background-color: yellow;
+  height: 120px;
+  width: 120px;
+  border-radius:10%;
+}
+.play-again{
+  display: none !important;
+}
+.start-game{
+  display: none;
+}
+
+.animation{ 
+  box-shadow: 20px 15px 15px grey;
+  opacity: 0.9;
+  border-radius: 50%;
+}
+
+/* Media Queries */
+@media screen and (min-width:300px) and (max-width:800px) {
+  
+}
